@@ -16,5 +16,5 @@ app.use('/api/projects', require('./routes/projects'));
 app.use('/api/tasks', require('./routes/tasks'));
 
 app.listen(port, '0.0.0.0', () => {
-    console.log(`Workinggg on port ${PORT}`);
+    console.log(`Workinggg on port ${port}`);
 });
